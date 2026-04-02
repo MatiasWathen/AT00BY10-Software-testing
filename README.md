@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/MatiasWathen/AT00BY10-Software-testing/badge.svg?branch=main)](https://coveralls.io/github/MatiasWathen/AT00BY10-Software-testing?branch=main)
+
 # Student template
 
 ## Purpose of this repository
