@@ -1,6 +1,8 @@
+//Testi on .skip tilassa virheellisten laskentatulosten vuoksi.
 import countBy from './countBy.js';
 
 describe('countBy.js testit', () => {
+  //Testataan alkioiden ryhmittely ja määrän laskenta annetun kriteerin perusteella.
   test.skip('laskee elementit kategorioittain', () => {
     const users = [
       { 'user': 'barney', 'active': true },

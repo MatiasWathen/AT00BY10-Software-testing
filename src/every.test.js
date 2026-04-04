@@ -1,11 +1,13 @@
+//Testataan kokoelman alkioiden ehtojen täyttyminen.
 import every from './every.js';
 
 describe('every.js testit', () => {
-  test('palauttaa true jos kaikki täsmää', () => {
+  //Testataan tilanne jossa kaikki alkiot täyttävät totuusarvovaatimuksen.
+  test('palauttaa true jos kaikki täsmää', () => {  
     expect(every([true, 1, 'yes'], Boolean)).toBe(true);
   });
-
-  test('palauttaa false jos jokin ei täsmää', () => {
+  //Testataan että yksikin hylätty alkio (null) palauttaa kokonaistulokseksi false.
+  test('palauttaa false jos jokin ei täsmää', () => { 
     expect(every([true, 1, null], Boolean)).toBe(false);
   });
 });
